@@ -17,6 +17,8 @@
 		33AA684228257B7800DB5747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AA682F28257B7800DB5747 /* Assets.xcassets */; };
 		33C8A845286B66AE00F321CB /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C8A844286B66AE00F321CB /* Application.swift */; };
 		33C8A846286B66AE00F321CB /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C8A844286B66AE00F321CB /* Application.swift */; };
+		33C8A848286B745A00F321CB /* FeaturedAppCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C8A847286B745A00F321CB /* FeaturedAppCardView.swift */; };
+		33C8A849286B745A00F321CB /* FeaturedAppCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C8A847286B745A00F321CB /* FeaturedAppCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,7 @@
 		33AA683A28257B7800DB5747 /* Demo ESGI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Demo ESGI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33AA683C28257B7800DB5747 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		33C8A844286B66AE00F321CB /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		33C8A847286B745A00F321CB /* FeaturedAppCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedAppCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,7 @@
 			children = (
 				33AA682D28257B7700DB5747 /* Demo_ESGIApp.swift */,
 				33AA682E28257B7700DB5747 /* ContentView.swift */,
+				33C8A847286B745A00F321CB /* FeaturedAppCardView.swift */,
 				33A9E3E2286A24CD00A67732 /* Models */,
 				33AA682F28257B7800DB5747 /* Assets.xcassets */,
 			);
@@ -196,6 +200,7 @@
 				33C8A845286B66AE00F321CB /* Application.swift in Sources */,
 				33AA683F28257B7800DB5747 /* ContentView.swift in Sources */,
 				33AA683D28257B7800DB5747 /* Demo_ESGIApp.swift in Sources */,
+				33C8A848286B745A00F321CB /* FeaturedAppCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +212,7 @@
 				33C8A846286B66AE00F321CB /* Application.swift in Sources */,
 				33AA684028257B7800DB5747 /* ContentView.swift in Sources */,
 				33AA683E28257B7800DB5747 /* Demo_ESGIApp.swift in Sources */,
+				33C8A849286B745A00F321CB /* FeaturedAppCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
