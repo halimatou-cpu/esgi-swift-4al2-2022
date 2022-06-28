@@ -38,23 +38,7 @@ struct ContentView: View {
                     .cornerRadius(20)
             }
             Button("Debug") {
-                let classInstance = MaSuperClasse()
-                classInstance.name = "Class"
 
-                let anotherClassInstance = classInstance
-                anotherClassInstance.name = "OtherClass"
-
-                classInstance.sayHello()
-                anotherClassInstance.sayHello()
-
-                var structInstance = MaStruct()
-                structInstance.name = "Struct"
-
-                var anotherStructInstance = structInstance
-                anotherStructInstance.name = "OtherStruct"
-
-                structInstance.sayHello()
-                anotherStructInstance.sayHello()
             }
             Spacer()
 
