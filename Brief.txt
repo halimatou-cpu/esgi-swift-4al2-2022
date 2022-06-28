@@ -1,0 +1,16 @@
+
+
+Variables : 
+feature image
+feature title
+card category
+
+app name
+app baseline
+icon image
+app have in app purchase
+
+app is owned / installed
+
+Function: 
+Install/download/open
