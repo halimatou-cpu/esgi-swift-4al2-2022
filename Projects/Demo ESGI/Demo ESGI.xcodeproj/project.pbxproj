@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33A9E3E0286A24BE00A67732 /* FeaturedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9E3DF286A24BE00A67732 /* FeaturedApp.swift */; };
+		33A9E3E1286A24BE00A67732 /* FeaturedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9E3DF286A24BE00A67732 /* FeaturedApp.swift */; };
 		33AA683D28257B7800DB5747 /* Demo_ESGIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA682D28257B7700DB5747 /* Demo_ESGIApp.swift */; };
 		33AA683E28257B7800DB5747 /* Demo_ESGIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA682D28257B7700DB5747 /* Demo_ESGIApp.swift */; };
 		33AA683F28257B7800DB5747 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA682E28257B7700DB5747 /* ContentView.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33A9E3DF286A24BE00A67732 /* FeaturedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedApp.swift; sourceTree = "<group>"; };
 		33AA682D28257B7700DB5747 /* Demo_ESGIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_ESGIApp.swift; sourceTree = "<group>"; };
 		33AA682E28257B7700DB5747 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33AA682F28257B7800DB5747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33A9E3E2286A24CD00A67732 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				33A9E3DF286A24BE00A67732 /* FeaturedApp.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		33AA682728257B7700DB5747 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +67,7 @@
 			children = (
 				33AA682D28257B7700DB5747 /* Demo_ESGIApp.swift */,
 				33AA682E28257B7700DB5747 /* ContentView.swift */,
+				33A9E3E2286A24CD00A67732 /* Models */,
 				33AA682F28257B7800DB5747 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -176,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A9E3E0286A24BE00A67732 /* FeaturedApp.swift in Sources */,
 				33AA683F28257B7800DB5747 /* ContentView.swift in Sources */,
 				33AA683D28257B7800DB5747 /* Demo_ESGIApp.swift in Sources */,
 			);
@@ -185,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A9E3E1286A24BE00A67732 /* FeaturedApp.swift in Sources */,
 				33AA684028257B7800DB5747 /* ContentView.swift in Sources */,
 				33AA683E28257B7800DB5747 /* Demo_ESGIApp.swift in Sources */,
 			);
