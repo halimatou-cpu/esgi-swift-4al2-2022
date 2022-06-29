@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FeaturedAppCardView: View {
 
-    let featuredApp: FeaturedApp
+    @State var featuredApp: FeaturedApp
 
     var body: some View {
         ZStack {
@@ -25,11 +25,13 @@ struct FeaturedAppCardView: View {
                         .font(.title)
                         .bold()
                         .foregroundColor(.white)
+                    Text(featuredApp.app.appStatus.rawValue)
+                        .foregroundColor(.white)
                 }
                 .padding(.top, 10)
                 .padding(.leading, 20)
                 Spacer()
-                AppView(app: featuredApp.app)
+                AppView(feature: $featuredApp)
             }
         }
         .cornerRadius(20)
@@ -42,7 +44,7 @@ struct FeaturedAppCardView: View {
 struct FeaturedAppCardView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            FeaturedAppCardView(featuredApp: FeaturedApp(featureImageName: "FeaturedImage", featureTitle: "Préparez votre road-trip", featureCategory: .details, app: Application(appName: "Calimoto GPS ", appBaseline: "Calcul d'itinéraire pour…", appIconName: "AppIcon1024", haveInAppPurchases: true), appStatus: .notOwned))
+            FeaturedAppCardView(featuredApp: FeaturedApp(featureImageName: "FeaturedImage", featureTitle: "Préparez votre road-trip", featureCategory: .details, app: Application(appName: "Calimoto GPS ", appBaseline: "Calcul d'itinéraire pour…", appIconName: "AppIcon1024", haveInAppPurchases: true, appStatus: .notOwned)))
 
         }
     }

@@ -9,28 +9,39 @@ import SwiftUI
 
 struct AppView: View {
 
-    let app: Application
+    // @State: Property wrapper
+    @Binding var feature: FeaturedApp
 
     var body: some View {
         HStack {
-            Image(app.appIconName)
+            Image(feature.app.appIconName)
                 .resizable()
                 .frame(width: 48, height: 48)
                 .cornerRadius(12)
             VStack(alignment: .leading) {
-                Text(app.appName)
+                Text(feature.app.appName)
                     .bold()
-                Text(app.appBaseline)
+                Text(feature.app.appBaseline)
                     .font(.caption)
                     .foregroundColor(.gray)
             }
             Spacer()
-            Button("Installer".uppercased()) {
-
+            if feature.app.appStatus == .notOwned {
+                Button("Installer".uppercased()) {
+                    feature.app.buy()
+                }
+                .font(.system(size: 14, weight: .bold))
+                .padding(.horizontal, 8)
+                .background(Capsule().foregroundColor(Color(white: 0, opacity: 0.2)))
+            } else if feature.app.appStatus == .owned {
+                Button("Télécharger".uppercased()) {
+                    feature.app.download()
+                }
+                .font(.system(size: 14, weight: .bold))
+                .padding(.horizontal, 8)
+                .background(Capsule().foregroundColor(Color(white: 0, opacity: 0.2)))
             }
-            .font(.system(size: 14, weight: .bold))
-            .padding(.horizontal, 8)
-            .background(Capsule().foregroundColor(Color(white: 0, opacity: 0.2)))
+
         }
         .padding(16)
         .background(Color.white)
@@ -39,6 +50,6 @@ struct AppView: View {
 
 struct AppView_Previews: PreviewProvider {
     static var previews: some View {
-        AppView(app: Application(appName: "Calimoto GPS", appBaseline: "Calcul d'itinéraire pour…", appIconName: "AppIcon1024", haveInAppPurchases: true))
+        Text("")
     }
 }
