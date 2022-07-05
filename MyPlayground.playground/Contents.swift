@@ -57,3 +57,20 @@ anotherStructInstance.name = "OtherStruct"
 
 structInstance.sayHello()
 anotherStructInstance.sayHello()
+
+
+var optionalInt: Optional<Int> = nil
+
+print((optionalInt ?? 4) * 2)
+
+if let myValue = optionalInt {
+    print(myValue * 2)
+}
+
+guard let myValue = optionalInt else {
+    fatalError()
+}
+
+myValue
+
+let magnitude: UInt? = optionalInt?.magnitude
