@@ -11,6 +11,8 @@
 		333D16BA287499A6004CF75C /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D16B8287499A6004CF75C /* ListView.swift */; };
 		333D16BC28749E39004CF75C /* StaticListForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D16BB28749E39004CF75C /* StaticListForm.swift */; };
 		333D16BD28749E39004CF75C /* StaticListForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D16BB28749E39004CF75C /* StaticListForm.swift */; };
+		333D16BF2874A4DF004CF75C /* NavigationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D16BE2874A4DF004CF75C /* NavigationDemo.swift */; };
+		333D16C02874A4DF004CF75C /* NavigationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D16BE2874A4DF004CF75C /* NavigationDemo.swift */; };
 		33A9E3E0286A24BE00A67732 /* FeaturedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9E3DF286A24BE00A67732 /* FeaturedApp.swift */; };
 		33A9E3E1286A24BE00A67732 /* FeaturedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A9E3DF286A24BE00A67732 /* FeaturedApp.swift */; };
 		33AA683D28257B7800DB5747 /* Demo_ESGIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA682D28257B7700DB5747 /* Demo_ESGIApp.swift */; };
@@ -30,6 +32,7 @@
 /* Begin PBXFileReference section */
 		333D16B8287499A6004CF75C /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		333D16BB28749E39004CF75C /* StaticListForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticListForm.swift; sourceTree = "<group>"; };
+		333D16BE2874A4DF004CF75C /* NavigationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemo.swift; sourceTree = "<group>"; };
 		33A9E3DF286A24BE00A67732 /* FeaturedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedApp.swift; sourceTree = "<group>"; };
 		33AA682D28257B7700DB5747 /* Demo_ESGIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo_ESGIApp.swift; sourceTree = "<group>"; };
 		33AA682E28257B7700DB5747 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +89,7 @@
 				33C8A847286B745A00F321CB /* FeaturedAppCardView.swift */,
 				33C8A84B286C4D6C00F321CB /* AppView.swift */,
 				333D16B8287499A6004CF75C /* ListView.swift */,
+				333D16BE2874A4DF004CF75C /* NavigationDemo.swift */,
 				333D16BB28749E39004CF75C /* StaticListForm.swift */,
 				33A9E3E2286A24CD00A67732 /* Models */,
 				33AA682F28257B7800DB5747 /* Assets.xcassets */,
@@ -216,6 +220,7 @@
 				33AA683D28257B7800DB5747 /* Demo_ESGIApp.swift in Sources */,
 				33C8A848286B745A00F321CB /* FeaturedAppCardView.swift in Sources */,
 				333D16BC28749E39004CF75C /* StaticListForm.swift in Sources */,
+				333D16BF2874A4DF004CF75C /* NavigationDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +236,7 @@
 				33AA683E28257B7800DB5747 /* Demo_ESGIApp.swift in Sources */,
 				33C8A849286B745A00F321CB /* FeaturedAppCardView.swift in Sources */,
 				333D16BD28749E39004CF75C /* StaticListForm.swift in Sources */,
+				333D16C02874A4DF004CF75C /* NavigationDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
